@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+#welcome-right {
+    background-color: dodgerblue;
+    border-bottom-left-radius: 1000px;
+}
+#modal-ul a:hover {
+    transition: .3s all;
+    color: rgb(0, 0, 0);
+}
+#about-left {
+    clip-path: circle(67.8% at 34% 81%);
+    background-color: dodgerblue;
+}
+#h1-span {
+    color: black;
+}
+#about-think {
+    transition: .3s all;
+    animation: think 5s linear infinite;
+}
+@keyframes think {
+    0%{}
+    25%{
+        color: #17FBFF;
+    }
+    50%{
+        color: #17E0FF;
+    }
+    90% {
+        color: #FFC617;
+    }
+}
+#feat-1:hover {
+    transition: .8s ease-in-out;
+    transform-origin: center;
+    transform: scale(1.05);
+}
+#feat-2:hover {
+    transition: .8s ease-in-out;
+    transform-origin: center;
+    transform: scale(1.05);
+}
+#feat-3:hover {
+    transition: .8s ease-in-out;
+    transform-origin: center;
+    transform: scale(1.05);
+}
+#work {
+    background-image: url(/BOOTSTRAP/Pfolio/svg/undraw_personal_data_re_ihde.svg);
+    background-size: cover;
+}
